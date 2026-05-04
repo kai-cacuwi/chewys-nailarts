@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Detail Layanan - Chewy's Nail Art</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      .detail-item {
+        padding: 100px 10%;
+        border-bottom: 2px solid #eee;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        scroll-margin-top: 80px;
+      }
+      .detail-item:nth-child(even) {
+        flex-direction: row-reverse;
+        background-color: #fafafa;
+      }
+      .detail-text {
+        flex: 1;
+      }
+      .detail-text h2 {
+        color: #7a665d;
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+      }
+      .detail-text p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: #555;
+      }
+      .detail-img {
+        width: 450px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      .price-tag {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #7a665d;
+        margin: 20px 0;
+        display: block;
+      }
+      .back-btn {
+        display: inline-block;
+        margin: 40px 10%;
+        padding: 10px 20px;
+        background: #7a665d;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+      }
+
+      .back-btn:hover {
+        background-color: #f88389;
+        transform: translateX(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo-section">
+          <img
+            src="images/logochewy.png"
+            alt="Chewy's Logo"
+            class="header-logo"
+          />
+          <h1 class="brand-name">Chewy's Nail Art</h1>
+        </div>
+
+        <nav class="header-nav">
+          <a href="index.html">Home</a>
+          <a href="catalog.html">Catalog</a>
+          <a href="kursuswithchewy.html">Kursus Chewy</a>
+          <a href="student_class.html">Kelas Kursus</a>
+          <a href="aboutus.html">About Chewy</a>
+          <a href="kontak.html">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <a href="catalog.html" class="back-btn">← Kembali ke Menu Layanan</a>
+
+    <section id="express-manicure" class="detail-item">
+      <div class="detail-text">
+        <h2>✨ Express Manicure</h2>
+        <p>
+          Perawatan kuku dasar yang cepat namun detail. Meliputi pemotongan
+          kuku, pembersihan kutikula, dan pemberian vitamin agar kuku tampak
+          bersih, rapi, dan sehat merona.
+        </p>
+        <span class="price-tag">Rp 50.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Express_Manicure.jpg"
+        class="detail-img"
+        alt="Express Manicure"
+      />
+    </section>
+
+    <section id="gel-solid" class="detail-item">
+      <div class="detail-text">
+        <h2>💅 Gel Polish Solid</h2>
+        <p>
+          Pewarnaan kuku menggunakan kutek gel premium yang awet dan berkilau
+          tinggi. Tersedia ratusan pilihan warna yang tahan hingga 3-4 minggu
+          tanpa mengelupas.
+        </p>
+        <span class="price-tag">Rp 100.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Gel_Polish_Solid.jpg"
+        class="detail-img"
+        alt="Gel Polish Solid"
+      />
+    </section>
+
+    <section id="french-manicure" class="detail-item">
+      <div class="detail-text">
+        <h2>🌸 French Manicure</h2>
+        <p>
+          Desain klasik dengan garis putih di ujung kuku. Memberikan kesan kuku
+          yang sangat bersih, natural, dan elegan untuk segala suasana.
+        </p>
+        <span class="price-tag">Rp 120.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/French_Manicure.jpg"
+        class="detail-img"
+        alt="French Manicure"
+      />
+    </section>
+
+    <section id="ombre-gradation" class="detail-item">
+      <div class="detail-text">
+        <h2>🎨 Ombre Gradation</h2>
+        <p>
+          Perpaduan dua warna yang menyatu sempurna. Simpel, modern, dan
+          memberikan kesan jari yang lebih lentik.
+        </p>
+        <span class="price-tag">Rp 135.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Ombre_Gradation.jpg"
+        class="detail-img"
+        alt="Ombre Gradation"
+      />
+    </section>
+
+    <section id="minimalist-line" class="detail-item">
+      <div class="detail-text">
+        <h2>💎 Minimalist Line Art</h2>
+        <p>
+          Permainan garis linear dan kurva yang dinamis. Definisi nyata dari
+          gaya kuku kontemporer yang elegan.
+        </p>
+        <span class="price-tag">Rp 150.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Minimalist_Line_Art.jpg"
+        class="detail-img"
+        alt="Minimalist Line Art"
+      />
+    </section>
+
+    <section id="cat-eye" class="detail-item">
+      <div class="detail-text">
+        <h2>🌟 Cat Eye Effect</h2>
+        <p>
+          Efek kuku ajaib yang dibuat menggunakan magnet khusus. Menghasilkan
+          kilau cahaya yang bergerak persis seperti indahnya mata kucing.
+        </p>
+        <span class="price-tag">Rp 160.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Cat_Eye_Effect.jpg"
+        class="detail-img"
+        alt="Cat Eye Effect"
+      />
+    </section>
+
+    <section id="marble-stone" class="detail-item">
+      <div class="detail-text">
+        <h2>☁️ Marble Stone Effect</h2>
+        <p>
+          Terinspirasi dari keindahan organik elemen bumi, Marble Art ini
+          menawarkan transisi warna yang lembut namun berkarakter.
+          Guratan-guratan abstraknya memberikan dimensi visual yang tidak
+          membosankan, menjadikannya pilihan sempurna bagi kamu yang ingin
+          tampil menonjol dengan gaya yang tetap tenang, dewasa, dan
+          profesional.
+        </p>
+        <span class="price-tag">Rp 175.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Marble_Stone_Effect.jpg"
+        class="detail-img"
+        alt="Marble Stone Effect"
+      />
+    </section>
+
+    <section id="aurora-pearl" class="detail-item">
+      <div class="detail-text">
+        <h2>✨ Aurora Pearl Finish</h2>
+        <p>
+          Definisi nyata dari gaya futuristik. Chrome Mirror Shine memberikan
+          efek pantulan sempurna layaknya cermin di ujung jarimu. Dengan hasil
+          akhir metalik yang tajam dan mulus, desain ini bukan sekadar nail art,
+          melainkan pernyataan gaya bagi kamu yang berani tampil menonjol dengan
+          kilau yang intens dan berkelas.
+        </p>
+        <span class="price-tag">Rp 155.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Aurora_Pearl_Finish.jpg"
+        class="detail-img"
+        alt="Aurora Pearl Finish"
+      />
+    </section>
+
+    <section id="chrome-mirror" class="detail-item">
+      <div class="detail-text">
+        <h2>🪞 Chrome Mirror Shine</h2>
+        <p>
+          Terinspirasi dari indahnya cahaya Aurora Borealis, desain ini
+          memberikan kilauan multidimensi yang berubah-ubah saat terkena cahaya.
+          Dengan sentuhan pearlescent yang halus, kuku Anda akan memancarkan
+          efek pelangi yang magis, menciptakan kesan futuristik sekaligus sangat
+          feminin di setiap gerakan tangan.
+        </p>
+        <span class="price-tag">Rp 165.000</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Chrome_Mirror_Shine.jpg"
+        class="detail-img"
+        alt="Chrome Mirror Shine"
+      />
+    </section>
+
+    <section id="3D Jelly Charms" class="detail-item">
+      <div class="detail-text">
+        <h2>🧸 3D Jelly Charms</h2>
+        <p>
+          Sentuhan manis dengan detail 3D yang terlihat seperti kristal jeli
+          yang jernih. Desain ini memberikan kesan kuku yang bervolume namun
+          tetap terlihat clean berkat materialnya yang tembus pandang. Pilihan
+          sempurna untuk memberikan kesan artistik, unik, dan fresh pada
+          penampilan harianmu.
+        </p>
+        <span class="price-tag">Rp 15.000/kuku</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/3D_Jelly_Charms.jpg"
+        class="detail-img"
+        alt="3D Jelly Charms"
+      />
+    </section>
+
+    <section id="candy-pop" class="detail-item">
+      <div class="detail-text">
+        <h2>🍭 3D Candy Pop</h2>
+        <p>
+          Ekspresi warna-warni dalam dimensi tiga yang nyata. Desain ini
+          menggunakan material gel transparan yang terlihat kenyal dan segar
+          seperti jeli buah. Perpaduan warna neon dan pastel yang cerah
+          memberikan kesan kuku yang 'hidup' dan fun, menciptakan gaya yang
+          ceria dan membangkitkan mood seketika.
+        </p>
+        <span class="price-tag">Rp 20.000/kuku</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/3D_Candy_Pop.jpg"
+        class="detail-img"
+        alt="3D Candy Pop"
+      />
+    </section>
+
+    <section id="shell-stone" class="detail-item">
+      <div class="detail-text">
+        <h2>🐚 Shell & Stone Art</h2>
+        <p>
+          Bawa keindahan laut ke ujung jarimu dengan desain Shell Stone Art.
+          Menggunakan kepingan cangkang kerang asli yang dipadukan secara
+          artistik, desain ini menciptakan tekstur alami yang mewah dengan kilau
+          iridescen yang lembut. Setiap kuku memiliki pola yang unik, memberikan
+          kesan eksklusif yang terinspirasi dari kekayaan alam bawah laut.
+        </p>
+        <span class="price-tag">Rp 20.000/kuku</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Shell_Stone_Art.jpg"
+        class="detail-img"
+        alt="Shell & Stone Art"
+      />
+    </section>
+
+    <section id="swarovski" class="detail-item">
+      <div class="detail-text">
+        <h2>💍 Swarovski Crystals</h2>
+        <p>
+          Gunakan kemewahan kristal Swarovski asli pada kuku Anda. Memberikan
+          efek kilau berlian yang sangat mewah, pilihan utama untuk kuku
+          pengantin (Wedding Nails).
+        </p>
+        <span class="price-tag">Mulai Rp 85.000/kuku</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Swarovski_Crystals.jpg"
+        class="detail-img"
+        alt="Swarovski Crystals"
+      />
+    </section>
+
+    <section id="custom-character" class="detail-item">
+      <div class="detail-text">
+        <h2>🎭 Custom Character Art</h2>
+        <p>
+          Bawa karakter impianmu menjadi nyata di ujung jari. Layanan custom
+          character kami mengutamakan detail mikro dan kemiripan yang luar
+          biasa, mulai dari ekspresi wajah hingga gradasi warna yang hidup.
+          Setiap kuku dirancang khusus sesuai permintaanmu, menciptakan hasil
+          akhir yang eksklusif dan tidak akan ditemukan pada siapapun di dunia.
+        </p>
+        <span class="price-tag">Rp 20.000/kuku</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Custom_Character_Art.jpg"
+        class="detail-img"
+        alt="Custom Character Art"
+      />
+    </section>
+
+    <section id="holographic-chrome" class="detail-item">
+      <div class="detail-text">
+        <h2>🌈 Holographic Chrome</h2>
+        <p>
+          Bawa spektrum warna pelangi ke ujung jarimu dengan Holographic Chrome.
+          Berbeda dengan chrome biasa, desain ini menciptakan pantulan cahaya
+          laser yang berubah warna di setiap sudut pandang. Hasil akhirnya
+          memberikan kilau metalik yang tajam namun tetap penuh warna,
+          menciptakan ilusi visual yang memukau dan futuristik.
+        </p>
+        <span class="price-tag">Rp 50.000/kuku</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Holographic_Chrome.jpg"
+        class="detail-img"
+        alt="Holographic Chrome"
+      />
+    </section>
+
+    <section id="liquid-chrome" class="detail-item">
+      <div class="detail-text">
+        <h2>🥈 3D Liquid Chrome Art</h2>
+        <p>
+          Lelehan logam cair yang timbul di atas kuku. Menggabungkan tekstur 3D
+          dengan warna chrome silver/gold yang sangat artistik dan trendi saat
+          ini.
+        </p>
+        <span class="price-tag">Rp 50.000/kuku</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/3D_Liquid_ChromeArt.jpg"
+        class="detail-img"
+        alt="3D Liquid Chrome Art"
+      />
+    </section>
+
+    <section id="home-service" class="detail-item">
+      <div class="detail-text">
+        <h2>🏡 Home Service</h2>
+        <p>
+          Jadwal padat bukan lagi halangan untuk tampil cantik. Dengan layanan
+          Home Service, kami hadir untuk memberikan solusi manikur dan nail art
+          yang praktis dan privat. Hemat waktu perjalanan dan hindari antrean;
+          kami memastikan Anda mendapatkan hasil kuku yang sempurna dengan
+          standar kebersihan dan alat yang steril di kenyamanan rumah sendiri.
+        </p>
+        <span class="price-tag">+ Biaya Transport</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Home_Service.jpg"
+        class="detail-img"
+        alt="Home Service"
+      />
+    </section>
+
+    <section id="wedding-art" class="detail-item">
+      <div class="detail-text">
+        <h2>👰 Exclusive Wedding Art</h2>
+        <p>
+          Sempurnakan momen janji suci dengan desain kuku yang memancarkan aura
+          romantis dan keanggunan abadi. Perpaduan warna nude yang lembut dengan
+          aksen renda (lace) atau floral painting yang halus menciptakan harmoni
+          sempurna dengan gaun pengantinmu. Sebuah detail kecil yang menambah
+          kesempurnaan di setiap foto prosesi tukar cincin.
+        </p>
+        <span class="price-tag">Wajib Konsultasi</span>
+        <a href="kontak.html" class="btn">Booking Sekarang</a>
+      </div>
+      <img
+        src="images/Exclusive_Wedding_Art.jpg"
+        class="detail-img"
+        alt="Exclusive Wedding Art"
+      />
+
+      <div class="wa-floating-container">
+        <div class="wa-message-pop">
+          <p>
+            Hallo bestie Chewy! ✨ <br />
+            Ada yang bisa kami bantu?
+          </p>
+          <span
+            class="wa-close"
+            onclick="this.parentElement.style.display = 'none'"
+            >×</span
+          >
+        </div>
+        <a
+          href="https://wa.me/6281234567890?text=Halo%20Chewy's%20Nail%20Art!%20Aku%20mau%20tanya-tanya%20dong..."
+          class="wa-btn"
+          target="_blank"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+            alt="WhatsApp"
+          />
+        </a>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-box">
+          <h3>Chewy's Nail Art</h3>
+          <p>
+            Seni kuku profesional untuk menunjang kepercayaan dirimu setiap
+            hari.
+          </p>
+        </div>
+        <div class="footer-box">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <h4>Follow Us</h4>
+          <p>IG: @chewys.nailart</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 - Khairunisa Najwa Rusadi | All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
